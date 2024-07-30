@@ -1,38 +1,310 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Business Card</title>
-  <link rel="stylesheet"href="style.css" />  <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MDN-Reference</title>
+  <!-- font awesome icon cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <!-- custome style sheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-<div class="container"></div>
-<div class="card1">
-  <div class="card">
-    <br><br><br>
-    <img
-    src="/image/logo.jpg" alt="logo">
+  <!-- Top Bar -->
+  <div class="topBar">
+    <p>
+      Get real-time assistance with your coding queries. Try <a href="" class="a1">AI Help</a>
+      now!
+    </p>
   </div>
-  <center><br><br>
-    <h2>Chef</h2>
-    <h1>Rimsha Irfan</h1>
-    <br>
-    <i class="fa-brands fa-square-whatsapp"></i><b>+92-305-2466344</b>
-    <br><br><br><br>
-    <div class="icons">
-    <i class="fa-brands fa-square-facebook"></i>
-    <i class="fa-brands fa-square-instagram"></i>
-    <i class="fa-brands fa-tiktok"></i>
-    <b>/Rimsha Baker's.offical</b>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">
+      <img src="./images/mdn.jpg" class="logo-text" />
     </div>
-    <i class="fa-solid fa-location-dot"></i>
-    <b>Online Shop</b>
-  </center>
-</div>
+    <nav>
+      <a href="#">References</a>
+      <a href="#">Guides</a>
+      <a href="#">Plus</a>
+      <a href="#">Curriculum</a>
+      <a href="#">Blog</a>
+      <a href="#">Tools</a>
+    </nav>
+    <div class="butn">
+      <p style="color: grey; font-size: 13px;"><i class="fa-solid fa-circle-half-stroke"></i><b> Theme
+          &nbsp;&nbsp;&nbsp; </b></p>
+      <p class="theme">
+        <span style="color: blue;">____</span>
+        <span><i class="fa fa-search" style="color: rgba(128, 128, 128, 0.481);"></i></span>
+      </p>
+      <button class="login">Log in</button><button class="signup">Sign Up</button>
+    </div>
+  </header>
+  <!-- Top Bar -->
+  <div class=" thirdbar">
+    <p class="icons">
+      References
+    </p>
+    <p class="icons"><i class="fa-solid fa-globe"></i>
+      English (US)
+    </p>
+  </div>
+  <!-- Content -->
+  <div class="Content">
+    <div class="side leftside">
+      <button class="btn">
+        <i class="fa-solid fa-filter" style="color: grey"></i>Filter
+      </button>
+      <div class="select">
+        <!--website Development-->
+        <select class="deve">
+         <option>Website Development</option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+        </select>
+        <!--Midsection-->
+        <select class="anchor">
+          <option><a href="HTML"></a>HTML</option>
+          <option><a href="CSS"></a>CSS</option>
+          <option><a href="Key Resources"></a>Key Resources</option>
+          <option><a href="Reference"></a>Reference</option>
+        </select>
+        <!-- Colors -->
+        <select class="dropDown">
+          <option>Colors</option>
+          <option>Hex Code</option>
+          <option>Rgba Color</option>
+          <option>Color Name</option>
+        </select>
+        <!-- Text -->
+        <select class="dropDown">
+          <option>Text</option>
+          <option>text-Align</option>
+          <option>text-decoration</option>
+          <option>text-transform</option>
+          <option>font-size</option>
+        </select>
+        <!-- Dimenssions -->
+        <select class="dropDown">
+          <option>Dimenssions</option>
+          <option>margin</option>
+          <option>padding</option>
+        </select>
+
+        <!-- Flex -->
+        <select class="dropDown">
+          <option>Flex</option>
+          <option>flex-direction</option>
+          <option>flex-grow</option>
+          <option>flex-shrink</option>
+          <option>font-flow</option>
+          <option>font-wrap</option>
+        </select>
+        <!-- Flex -->
+        <select class="dropDown">
+          <option>Display</option>
+          <option>flex</option>
+        </select>
+        <!-- Text -->
+        <select class="dropDown">
+          <option>Text</option>
+          <option>text-Align</option>
+          <option>text-decoration</option>
+          <option>text-transform</option>
+          <option>font-size</option>
+        </select>
+        <p class="head">
+          CSS: Cascading <br />
+          Style Sheets
+        </p>
+        <select class="dropDown">
+          <option>Align</option>
+          <option>flex</option>
+          <option>inline</option>
+          <option>block</option>
+        </select><!-- Dimenssions -->
+        <select class="dropDown">
+          <option>Dimenssions</option>
+          <option>margin</option>
+          <option>padding</option>
+        </select>
+        <!-- Colors -->
+        <select class="dropDown">
+          <option>Colors</option>
+          <option>Hex Code</option>
+          <option>Rgba Color</option>
+          <option>Color Name</option>
+        </select>
+        <!--  -->
+        <select class="dropDown">
+          <option>Input</option>
+          <option>text</option>
+          <option>email</option>
+          <option>password</option>
+          <option>number</option>
+        </select>
+        <!-- Text -->
+        <select class="dropDown">
+          <option>Text</option>
+          <option>text-Align</option>
+          <option>text-decoration</option>
+          <option>text-transform</option>
+          <option>font-size</option>
+        </select> <!-- Dimenssions -->
+        <select class="dropDown">
+          <option>Dimenssions</option>
+          <option>margin</option>
+          <option>padding</option>
+        </select>
+
+        <!-- Flex -->
+        <select class="dropDown">
+          <option>Flex</option>
+          <option>flex-direction</option>
+          <option>flex-grow</option>
+          <option>flex-shrink</option>
+          <option>font-flow</option>
+          <option>font-wrap</option>
+        </select>
+        <!-- Flex -->
+        <select class="dropDown">
+          <option>Display</option>
+          <option>flex</option>
+        </select>
+        <!-- Text -->
+        <select class="dropDown">
+          <option>Text</option>
+          <option>text-Align</option>
+          <option>text-decoration</option>
+          <option>text-transform</option>
+          <option>font-size</option>
+        </select>
+        <p class="head">
+          CSS: Cascading <br />
+          Style Sheets
+        </p>
+        <select class="dropDown">
+          <option>Align</option>
+          <option>flex</option>
+          <option>inline</option>
+          <option>block</option>
+        </select><!-- Dimenssions -->
+        <select class="dropDown">
+          <option>Dimenssions</option>
+          <option>margin</option>
+          <option>padding</option>
+        </select>
+        <!-- Colors -->
+        <select class="dropDown">
+          <option>Colors</option>
+          <option>Hex Code</option>
+          <option>Rgba Color</option>
+          <option>Color Name</option>
+        </select>
+        <!--  -->
+        <!-- Flex -->
+        <select class="dropDown">
+          <option>Flex</option>
+          <option>flex-direction</option>
+          <option>flex-grow</option>
+          <option>flex-shrink</option>
+          <option>font-flow</option>
+          <option>font-wrap</option>
+        </select>
+      </div>
+    </div>
+    <div class="side middle">
+      <h1 class="heading"id="HTML">HTML: HyperText Markup Language</h1>
+      <p class="para">
+        <b>HTML (HyperText Markup Language)</b> is the most basic building
+        block of the Web. It defines the meaning and structure of web content.
+        Other technologies besides HTML are generally used to describe a web
+        page's appearance/presentation<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"target ="_blank">(CSS) </a>or functionality/behavior
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> (JavaScript)</a>. "Hypertext" refers to links that connect web pages to
+        one another, either within a single website or between websites. Links
+        are a fundamental aspect of the Web. By uploading content to the
+        Internet and linking it to pages created by other people, you become
+        an active participant in the World Wide Web.
+      </p>
+      <h1 class="heading">CSS: Cascading Style Sheet</h1>
+<p class="para">
+<b id="CSS">Cascading Style Sheets (CSS)</b> is a  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet"target="-blank">stylesheet</a>language used to describe the presentation of a document written in<a="https://developer.mozilla.org/en-US/docs/Web/HTML"target="-blank"></a>HTML</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"target="-blank">XML</a>(including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+</p>
+      <p class="para">
+        <b>CSS </b>is among the core languages of the open web and is
+        standardized across Web browsers according to <a href="https://www.w3.org/Style/CSS/#specs"target="_blank"> W3C specifications.</a>
+        Previously, the development of various parts of CSS specification was
+        done synchronously, which allowed the versioning of the latest
+        recommendations. You might have heard about CSS1, CSS2.1, or even
+        CSS3. There will never be a CSS3 or a CSS4; rather, everything is now
+        just "CSS" with individual CSS modules having version numbers.
+      </p>
+      <p class="para">
+        <b>After CSS 2.1</b>, the scope of the specification increased
+        significantly and the progress on different CSS modules started to
+        differ so much, that it became more effective to <a href="https://www.w3.org/Style/CSS/current-work"target="_blank"> develop and release
+        recommendations separately per module</a>. Instead of versioning the CSS
+        specification, W3C now periodically takes a snapshot of the latest
+        stable state of the CSS specification and individual modules progress.
+        CSS modules now have version numbers, or levels, such as <a href="https://drafts.csswg.org/css-color-5/"> CSS Color
+        Module Level 5</a>.
+      </p>
+      <p class="para">
+        This module carries on where  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps">CSS first steps </a>left off — now you've
+        gained familiarity with the language and its syntax, and got some
+        basic experience with using it, it's time to dive a bit deeper. This
+        module looks at the cascade and inheritance, all the selector types we
+        have available, units, sizing, styling backgrounds and borders,
+        debugging, and lots more. <br>The aim here is to provide you with a
+        toolkit for writing competent CSS and help you understand all the
+        essential theory, before moving on to more specific disciplines like
+        text styling and CSS layout.<br><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text"> CSS styling text</a><br> With the basics of the
+        CSS language covered, the next CSS topic for you to concentrate on is
+        styling text — one of the most common things you'll do with CSS. Here
+        we look at text styling fundamentals, including setting font,
+        boldness, italics, line and letter spacing, drop shadows, and other
+        text features. We round off the module by looking at applying custom
+        fonts to your page, and styling lists and links.
+      </p>
+      <h1 class="heading"id="Key Resources">Key Resources :</h1>
+      <p class="para">
+        <b>CSS Introduction</b><br>If you're new to web development, be sure to read our CSS basics article to learn what CSS is and how to use it.
+        <br>
+        <b>CSS Tutorial</b><br>
+        Our CSS learning area contains a wealth of tutorials to take you from beginner level to proficiency, covering all the fundamentals.<br><b>CSS Reference</b><br>
+        Our CSS reference describes every property and concept of CSS.
+        </p>
+      <h1 class="heading"id="Reference">Reference</h1>
+      <p class="para">The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference</a> is an exhaustive reference for seasoned Web developers, describing every property and concept of CSS, including:
+      <br>
+      <ul>
+      <li>The syntax and forms of the languag</li>
+      <li>The containing block</li>
+      <li>Box model and margin collapse</li>
+     <li>Animation, transition,and transforms</li>
+      </ul>
+     </p>
+    </div>
+    <div class="child3">
+      <div class="heading1">In this article</div>
+      <p class="right_para">Prerequisites</p>
+      <p class="right_para">Modules</p>
+      <p class="right_para">Guide</p>
+      <p class="right_para">Assesments</p>
+      <p class="right_para">
+        Solving common <br />
+        CSS problems
+      </p>
+      <p class="right_para">"CSS is wired"</p>
+    </div>
+  </div>
 </body>
 
 </html>
