@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.topBar {
+.first part {
   width: 100vw;
   height: 40px;
   display: flex;
@@ -16,7 +16,7 @@
   background: #ebe5e596;
 }
 
-.topBar p {
+.first part p {
   text-align: center;
   font-size: 15px;
   align-items: center;
@@ -79,7 +79,7 @@ nav a:hover {
   background-color: #EFF7FE;
 }
 
-.butn {
+.work {
   flex-grow: 0.1;
   width: 280px;
   height: 40px;
@@ -87,7 +87,7 @@ nav a:hover {
   align-items: center;
 }
 
-.butn button {
+.work button {
   padding: 7px 15px;
   border-radius: 5px;
 }
@@ -128,7 +128,7 @@ nav a:hover {
   padding: 7px 10px;
   border-radius: 45px;
 }
-.thirdbar {
+.line {
   width: 100vw;
   height: 30px;
   display: flex;
@@ -140,7 +140,7 @@ nav a:hover {
   background: #ebe5e596;
 }
 
-.thirdbar p {
+.line p {
   font-size: 17px;
   align-items: center;
   padding: 50px;
@@ -155,13 +155,13 @@ nav a:hover {
   padding: 0 30px;
 }
 
-.side {
+.paragraphs {
   width: 200px;
   /* padding-left: 10px; */
   border: 2px solid white;
 }
 
-.middle {
+.paragraphs {
   flex-grow: 2;
   overflow-y: auto;
 }
@@ -192,7 +192,7 @@ nav a:hover {
   padding: 0 20px;
 }
 
-.btn {
+.filter {
   width: 100px;
   font-size: 15px;
   display: flex;
@@ -248,11 +248,11 @@ nav a:hover {
     width: 100%;
   }
 
-  .butn {
+  .work {
     width: 150px;
   }
 
-  .butn button {
+  .work button {
     padding: 2px 5px;
   }
 }
@@ -263,11 +263,11 @@ nav a:hover {
     width: 100%;
   }
 
-  .butn {
+  .work {
     display: none;
   }
 
-  .butn button {
+  .work button {
     padding: 2px 5px;
     flex-grow: 0;
   }
@@ -292,7 +292,7 @@ nav a:hover {
     display: none;
   }
 
-  .butn {
+  .work {
     /* width: 100%; */
     display: flex;
     height: 40px;
@@ -312,7 +312,7 @@ nav a:hover {
     padding: 0%;
   }
 
-  .butn {
+  .work {
     width: 100%;
   }
 
@@ -331,7 +331,7 @@ nav a:hover {
     width: 100%;
   }
 
-  .butn button {
+  .work button {
     display: flex;
     padding: 5px;
   }
@@ -353,7 +353,7 @@ ul{
   padding: 7px;
   margin: 7px;
 }
-.deve{
+.develop{
   color: white;
   padding: 7px;
   margin: 7px;
